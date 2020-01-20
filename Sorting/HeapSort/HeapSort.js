@@ -28,7 +28,6 @@ const percDown = (arr, i, n) => {
       break;
     }
   }
+
   arr[i] = tmp;
 };
-
-console.log(heapSort([6, 1, 12, 3, 16, 14, 0]));
